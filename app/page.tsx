@@ -36,7 +36,7 @@ You are an expert AI that analyzes a user's query to extract factual information
     * \`author\`: The author's name.
     * \`publisher\`: The publisher's name.
     * \`publicationYear\`: The year the book was published.
-    * \`genre\`: The genre of the book.
+    * \`genre\`: The genre of the book. (ex. 시, 소설, 에세이, 등)
     * \`language\`: The language of the book.
 3.  If a specific piece of information cannot be found in the prompt, you MUST leave its value as an empty string \`""\`.
 4.  Do not infer, guess, or add any information that is not explicitly stated in the \`user_prompt\`.
