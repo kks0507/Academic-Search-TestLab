@@ -276,7 +276,7 @@ export default function Home() {
               <div key={index} className="border border-gray-200 rounded-lg p-4 space-y-4">
                 <div className="flex items-center justify-between">
                   <h3 className="text-lg font-semibold text-gray-700">질문 #{index + 1}</h3>
-                  {item.question.trim() && (
+                  {/* item.question.trim() && (
                     <button
                       type="button"
                       onClick={() => processQuestion(index)}
@@ -285,7 +285,7 @@ export default function Home() {
                     >
                       {item.isLoading ? "처리중..." : "개별 실행"}
                     </button>
-                  )}
+                  )} */}
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
