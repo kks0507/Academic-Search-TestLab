@@ -51,6 +51,42 @@ Respond with ONLY the following JSON object. Do not include any other text, expl
   "genre": "",
   "language": ""
 }}
+---
+# [Example 1]
+- user_prompt: "혹시 민음사에서 2009년에 출간한 헤르만 헤세의 소설 '데미안' 한국어판 재고 있나요?"
+- Expected Output:
+{{
+  "title": "데미안",
+  "author": "헤르만 헤세",
+  "publisher": "민음사",
+  "publicationYear": "2009",
+  "genre": "소설",
+  "language": "한국어"
+}}
+
+# [Example 2]
+- user_prompt: "J.K. 롤링의 해리포터 찾아줘."
+- Expected Output:
+{{
+  "title": "해리포터",
+  "author": "J.K. 롤링",
+  "publisher": "",
+  "publicationYear": "",
+  "genre": "",
+  "language": ""
+}}
+
+# [Example 3]
+- user_prompt: "2023년에 나온 과학 분야 책 추천 좀 해주세요."
+- Expected Output:
+{{
+  "title": "",
+  "author": "",
+  "publisher": "",
+  "publicationYear": "2023",
+  "genre": "과학",
+  "language": ""
+}}
 `
 
 export default function Home() {
